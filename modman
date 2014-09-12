@@ -1,2 +1,6 @@
 src/shell/dataflow_import.php                   shell/dataflow_import.php
 src/shell/dataflow_login.php                    shell/dataflow_login.php
+
+@shell if ! [ -f $PROJECT/shell/dataflow_config.php ]; then \
+           cp -rf $MODULE/src/shell/dataflow_config.sample.php $PROJECT/shell/dataflow_config.php \
+       fi
