@@ -21,6 +21,13 @@ $password = '...';
 $url = '...';
 ```
 
+Disable SID on frontend:
+
+
+1. Go to System > Configuration > Web > Session Validation Settings
+2. Set Use SID on Frontend to “No”
+
+
 ## Usage
 
 
