@@ -33,5 +33,5 @@ Disable SID on frontend:
 
 
 ```BASH
-php -f dataflow_import.php <profile ID>
+php -f dataflow_import.php -- <profile ID>
 ```
