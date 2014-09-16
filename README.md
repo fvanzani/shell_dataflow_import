@@ -13,6 +13,11 @@ You can install the module via modman:
 modman clone git@github.com:wansoft/shell_dataflow_import.git
 
 ```
+Or:
+
+```bash
+modman clone https://github.com/wansoft/shell_dataflow_import.git
+```
 
 Rename "dataflow_config.sample.php" :
 
