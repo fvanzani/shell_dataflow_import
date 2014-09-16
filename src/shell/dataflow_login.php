@@ -83,7 +83,7 @@ if(! $session->isLoggedIn())
 
 {
 
-    Mage::log(convert(memory_get_usage()) . " - " . "Could not log in with '$username'", null, $logFileName);
+    Mage::log((memory_get_usage()) . " - " . "Could not log in with '$username'", null, $logFileName);
 
     exit;
 
