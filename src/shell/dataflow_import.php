@@ -161,7 +161,11 @@ Mage::register('current_convert_profile', $profile);
 
 Mage::log(convert(memory_get_usage()) . " - " . "Preparing profile...", null, $logFileName);
 
+$db->query("SET foreign_key_checks = 0;");
+
 $profile->run();
+
+$db->query("SET foreign_key_checks = 1;");
 
 Mage::log(convert(memory_get_usage()) . " - " . "...Done", null, $logFileName);
 
